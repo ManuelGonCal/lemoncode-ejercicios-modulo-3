@@ -11,10 +11,8 @@ module.exports = {
   },
   entry: {
     app: ['./index.tsx'],
-    appStyles: [
-      './averageComponentStyles.scss',
-      './totalScoreComponentStyles.scss',
-    ],
+    appStyles: ['./helloWorldStyles.scss'],
+    generalStyles: ['./generalStyles.css'],
   },
   output: {
     filename: '[name].[chunkhash].js',
